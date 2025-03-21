@@ -1,0 +1,509 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .root{
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+--Very-dark-grayish-blue: hsl(213, 9%, 39%);
+--Dark-grayish-blue: hsl(232, 10%, 55%);
+--Grayish-blue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+
+
+  }
+
+
+
+  header{
+    /* border: 2px solid black; */
+    background-color: aqua;
+    min-height: 100vh;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+    /* border: 3px solid blue; */
+
+  }
+
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    /* border: 3px solid white; */
+    
+    }
+    
+    ul li{
+      color:hsl(0, 0%, 100%);
+      
+    }
+    .ham-times{
+      display: none;
+    }
+
+    .creative{
+        
+        text-align: center;
+        font-size: 50px;
+        color:white;
+        margin-top: 0;
+        /* border: 2px solid white; */
+        
+
+    }
+    .arrow{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+      
+    }
+    .egg-section{
+      /* border: 2px solid red; */
+      display: flex;
+    }
+    .egg-text{
+      /* border: 3px solid purple; */
+      height: 500px;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .egg-content{
+      /* border: 2px solid red; */
+      max-width: 350px;
+    }
+    .brand{
+      font-size: 40px;
+      border-bottom: 10px solid var(--Yellow);
+    }
+
+    .service{
+      margin-top: 30px;
+      line-height: 1.5;
+    }
+    
+    .egg-content h4{
+      margin-top: 15px;
+      line-height: 0.5;
+      border-bottom: 10px solid yellow;
+      display: inline-block;
+      border-radius: 10px;
+    }
+
+    .egg-image{
+      height: 500px;
+      width: 50%;
+      /* border: 3px solid blue; */
+      background-image:url('./images/desktop/image-transform.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+    .cup-section{
+      /* border: 2px solid red; */
+      display: flex;
+    }
+    .cup-text{
+      /* border: 3px solid purple; */
+      height: 500px;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .cup-content{
+      /* border: 2px solid red; */
+      max-width: 350px;
+
+    }
+    .content{
+      font-size: 40px;
+      border-bottom: 10px solid var(--Yellow);
+
+    }
+    .cup{
+      margin-top: 30px;
+      line-height: 1.5;
+
+    }
+    .cup-content h4{
+      margin-top: 15px;
+      line-height: 0.5;
+      border-bottom: 10px solid yellow;
+      display: inline-block;
+      border-radius: 10px;
+    }
+
+    .cup-image{
+      height: 500px;
+      width: 50%;
+      /* border: 3px solid blue; */
+      background-image:url("./images/desktop/image-stand-out.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+ 
+    }
+    .box-section{
+      /* border: 2px solid red; */
+      display: flex;
+    }
+    .cherry-image{
+      height: 500px;
+      width: 50%;
+      /* border: 3px solid peru; */
+      background-image:url("./images/desktop/image-graphic-design.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .cherry-text{
+      /* border: 5px solid yellow; */
+      height:100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .cherry-content{
+      /* border: 2px solid ; */
+      max-width: 300px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .photo-one{
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .orange-image{
+      height: 500px;
+      width: 50%;
+      /* border: 3px solid blue; */
+      background-image:url("./images/desktop/image-photography.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+   .orange-text{
+    /* border: 5px solid yellow; */
+      height:100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+  }
+
+  .orange-content{
+    /* border: 2px solid ; */
+      max-width: 300px;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+
+  .photo{
+    margin-bottom: 20px;
+      line-height: 1.5;
+  }
+
+    .testimonials{
+      background-color: white;
+      width: 100%;
+      padding: 20px;
+      /* border: 3px solid red; */
+    
+
+    }
+
+    .testimonials h2{
+      /* border: 2px solid green; */
+      font-size: 20px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .client-testimonial{
+      /* border: 2px solid yellow; */
+      display: flex;
+      gap: 20px;
+     
+    }
+    .testimonial-one{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    }
+    .bus-image{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      /* border: 2px solid green; */
+    }
+    .bus-image img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    .look{
+     text-align: center;
+    }
+    
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      /* border: 3px solid red; */
+  }
+  .grid-box{
+      height: 200px;
+  }
+  .box-one{
+      background-image: url("./images/desktop/image-gallery-milkbottles.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+      background-repeat: no-repeat;
+  }
+  .box-two{
+    background-image: url("./images/desktop/image-gallery-orange.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .box-three{
+    background-image: url("./images/desktop/image-gallery-cone.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+  }
+  .box-four{
+    background-image: url("./images/desktop/image-gallery-sugarcubes.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .sunnyside{
+    background-color:rgb(122, 207, 203);
+    text-align: center;
+    padding: 40px 20px;
+    height: 200px;
+    width: 100%;
+    /* border: 3px solid red; */
+
+  
+  }
+  .footer-logo{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(58, 86, 58);
+  
+    
+  }
+
+  footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+nav ul{
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  
+}
+
+ul li{
+  color: darkgreen;
+  margin-top: 20px;
+  
+
+}
+.footer-social{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+  .ham-times{
+    display: block;
+  }
+  nav ul{
+    display: none;
+  }
+  .egg-section{
+    flex-direction: column;
+  }
+  .egg-text{
+    width:100%;
+    text-align: center;
+  }
+  .egg-image{
+    width: 100%;
+    order: -1;
+  }
+  .cup-section{
+    flex-direction: column;
+  }
+  .cup-text{
+    width: 100%;
+    text-align: center;
+  }
+  .cup-image{
+    width: 100%;
+  }
+  .box-section{
+    flex-direction: column;
+  }
+  .cherry-image{
+    width: 100%;
+  }
+  .cherry-text{
+    width: 100%;
+  }
+  .orange-text{
+    width: 100%;
+  }
+  .orange-image{
+    width: 100%;
+  }
+  .testimonial{
+    flex-direction: column;
+    height: auto;
+  }
+  .client-testimonial{
+    flex-direction: column;
+  }
+  .testimonial-one{
+    width: 100%;
+  }
+  .grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+
+
+
+
+    
+
+
+
+  
